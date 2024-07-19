@@ -1,0 +1,1128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+      
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["What makes Jessup Cellars unique compared to other tasting rooms in Yountville?"],
+      "responses": ["Jessup Cellars has a casual and inviting atmosphere and was the first tasting room opened in Yountville in 2003. You have the option of sitting inside our stunning art gallery or you may choose to enjoy the patio with giant umbrellas. We also have space available for private groups and special accomodations and snacks for your children. Our fine art is meticulously curated by our lead artist Jermaine Dante who exhibits his colorful creations in large formats in our spacious gallery where you can take in, or take home the inspiring art while imbibing your favorite Jessup wines."]
+    },
+    {
+      "tag": "animals",
+      "patterns": ["Are dogs allowed at Jessup Cellars?"],
+      "responses": ["Jessup Cellars welcomes your well-behaved dogs inside or outside and we have gluten free dog treats available as well as water dishes."]
+    },
+    {
+      "tag": "special",
+      "patterns": ["What makes Jessup Cellars wines special?"],
+      "responses": [ "Jessup Cellars wines are carefully crafted with the help of our renowned consulting winemaker Rob Lloyd who famously crafted Chardonnay for Rombauer, La Crema and Cakebread. Not only has Rob created one of the best Chardonnays in the Napa Valley with our 2022 vintage, but has also helped curate 'The Art of the Blend' with our stellar red wines."]
+    },
+    {
+      "tag": "offer",
+      "patterns": [
+        "What white wines does Jessup Cellars offer?"
+      ],
+      "responses": [
+        "Our leading white wine is our Napa Valley Chardonnay from the Los Carneros region. The Truchard Vineyard is perfectly located in the hills above Highway 12 with the San Francisco Bay influences creating a cooler growing climate where the grapes ripen slowly and perfectly on the vine. The perfect weather combines with an ideal terroir to create the foundation for a well-balanced Chardonnay aged for 10 months in 40% new American Oak barrels. We also offer an annual harvest of Sauvignon Blanc which is sourced from North Coast vines outside of the Napa Valley. The tropical nature of our 2023 Sauvignon Blanc is decidedly different than the typical Sauvignon Blanc grown in the Valley and elsewhere in the World. Due to its limited supply this wine sells out quickly each year so be sure to give us a call before visiting our tasting room to check availability."
+      ]
+    },
+    {
+      "tag": "white wine",
+      "patterns": [
+        "Tell me about white wine?"
+      ],
+      "responses": [
+        "Our leading white wine is our Napa Valley Chardonnay from the Los Carneros region. The Truchard Vineyard is perfectly located in the hills above Highway 12 with the San Francisco Bay influences creating a cooler growing climate where the grapes ripen slowly and perfectly on the vine. The perfect weather combines with an ideal terroir to create the foundation for a well-balanced Chardonnay aged for 10 months in 40% new American Oak barrels."
+      ]
+    },
+    {
+      "tag": "Chardonnay",
+      "patterns": [
+        "Can you tell me more about your 2022 Chardonnay?"
+      ],
+      "responses": [
+        "The Jessup Cellars 2022 Chardonnay is a white wine that comes across as very well balanced due to the aging being done in a combination of 40% new American and 60% neutral American Oak. This brings hints of oak to the wine while also offering a slightly creamy mouth feel without being a butter bomb. Our Napa Valley Chardonnay is a member favorite while the non-member price of $55 is appreciated by enthusiasts of this quality wine crafted by Rob Lloyd. The alcohol content is 14.8% while the PH is 3.4."
+      ]
+    },
+    {
+      "tag": "Sauvignon",
+      "patterns": [
+        "Tell me about your 2023 Sauvignon Blanc?"
+      ],
+      "responses": [
+        "Our 2023 vintage is 100% Sauvignon Blanc sourced from North Coast vineyards aged in 100% stainless steel barrels which is typical for this varietal. The stainless steel seals out the oxygen and seals in the flavors of the fruit and is a hearty 15.1% alcohol content with a PH of 3.3. While it's nose and flavors hint at tropical delights, we would not consider this wine to be too fruit forward, but rather fruit balanced with hints of pineapple and mango. Our Sauvignon Blanc is the perfect hot tub wine or for those warm summer evenings after a long day in the hot summer Sun. You will feel refreshed after enoying a glass or two of our Sauvignon Blanc, non-member price of $45!\n\nThe 2023 Sauvignon Blanc pairs wonderfully with a variety of dishes, enhancing the dining experience. For starters, it complements the flavors of Grilled Prawn Cocktail and Ceviche, accentuating the seafood's delicate taste and brightening the citrus elements in the dishes. The wine's fruity and floral notes beautifully complement the freshness of Tacos, making it an ideal match for this flavorful and versatile Mexican dish. Lastly, the wine's high acidity and fruit-forward character provide a delightful contrast to the creamy sweetness of a Peach & Burrata salad, creating a harmonious and memorable pairing."
+      ]
+    },
+    {
+        "tag": "pair",
+        "patterns": [
+          "What does your white wine pair well with?"
+        ],
+        "responses": [
+          "Our white wine pairs well with a variety of dishes, enhancing the dining experience. For starters, it complements the flavors of Grilled Prawn Cocktail and Ceviche, accentuating the seafood's delicate taste and brightening the citrus elements in the dishes."
+        ]
+      },
+      {
+        "tag": "white wines",
+        "patterns": [
+          "What white wines do you have?"
+        ],
+        "responses": [
+          "We offer the following white wines:\n- Jessup Cellars 2022 Chardonnay\n- Jessup Cellars 2023 Sauvignon Blanc"
+        ]
+      },
+      {
+        "tag": "red wines",
+        "patterns": [
+          "What red wines is Jessup Cellars offering in 2024?"
+        ],
+        "responses": [
+          "In 2024, Jessup Cellars offers a variety of red wines:\n- Pinot Noir and Merlot blends from Truchard Vineyard\n- Blended Cabernet Sauvignon from Napa and Alexander Valleys\n- Mendocino Rougette (Grenache and Carignane blend)\n- 'Art of the Blend' wines: Juel and Table for Four\n- 100% Zinfandel from 134-year-old vines in Mendocino\n- 100% Petite Sirah from Wooden Valley, Southeastern Napa County\n- Seasonal favorites like Manny's Blend, with a special label release planned later in 2024."
+        ]
+      },
+      {
+        "tag": "Lloyd",
+        "patterns": [
+          "Please tell me more about your consulting winemaker Rob Lloyd?"
+        ],
+        "responses": [
+          "Rob Lloyd\nConsulting Winemaker\n\nBIOGRAPHY\nHometown: All of California\n\nFavorite Jessup Wine Pairing: Carneros Chardonnay with freshly caught Mahi-Mahi\n\nAbout: Rob\u2019s foray into wine started directly after graduating college when he came to Napa to work in a tasting room for the summer \u2013 before getting a \u2018real job\u2019. He became fascinated with wine and the science of winemaking and began to learn everything he could about the process.\n\nWhile interviewing for that \u201creal job\u201d, the interviewer asked him what he had been doing with his time since graduation. After speaking passionately and at length about wine, the interviewer said, \u201cYou seem to love that so much. Why do you want this job?\u201d Rob realized he didn't want it, actually. He thanked the man, and thus began a career in the wine industry.\n\nRob has since earned his MS in Viticulture & Enology from the University of California Davis and worked for many prestigious wineries including Cakebread, Stag\u2019s Leap Wine Cellars, and La Crema. Rob began crafting Jessup Cellars in the 2009 season and took the position of Director of Winemaking at Jessup Cellars in 2010. He now heads up our winemaking for the Good Life Wine Collective, which also includes Handwritten Wines."
+        ]
+      },
+      {
+        "tag": "Rob",
+        "patterns": [
+          "Tell me an interesting fact about Rob Llyod"
+        ],
+        "responses": [
+          "While interviewing for that \u201creal job\u201d, the interviewer asked him what he had been doing with his time since graduation. After speaking passionately and at length about wine, the interviewer said, \u201cYou seem to love that so much. Why do you want this job?\u201d Rob realized he didn't want it, actually. He thanked the man, and thus began a career in the wine industry."
+        ]
+      },
+      {
+        "tag": "Napa",
+        "patterns": [
+          "Who is your winemaker at the winery in Napa?"
+        ],
+        "responses": [
+          "Bernardo Munoz\nWinemaker\n\nBIOGRAPHY\nHometown: Campeche, Mex\n\nFavorite Jessup Wine Pairing: 2010 Manny\u2019s Blend with Mongolian Pork Chops from Mustards Grill \u2013 richness paired with richness\n\nAbout: Bernardo began his career in the vineyards, learning the intricacies of grape growing and how to adjust to the whims of Mother Nature. He then moved into the cellars at Jessup Cellars, bringing us his complete grape to bottle knowledge to the team. He has a keen understanding of what it takes to make a great bottle."
+        ]
+      },
+      
+      {
+        "tag": "Pinot",
+        "patterns": [
+          "What can you tell me about your Pinot Noir?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2021 Pinot Noir is 96.7% Pinot Noir sourced from Los Carneros Truchard Vineyard. To enhance complexity, 3.3% Petite Sirah from Jessup Cellars' estate vineyard in Wooden Valley is blended in. Aged in 50% new French oak for 10 months, this Pinot Noir has a bold color and body, different from traditional lighter Pinots. With 14.8% alcohol and a pH of 3.45, it's a member favorite priced at $70 for non-members."
+        ]
+      },
+      {
+        "tag": "Merlot",
+        "patterns": [
+          "Tell me more information about your 2019 Merlot?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2019 Merlot is sourced from Truchard Vineyard in Los Carneros, Napa Valley. It's 80% Merlot, 16.5% Cabernet Sauvignon from Chiles Valley AVA, and 3.5% Petite Sirah from the same AVA. Aged for 22 months in 40% new American/French oak, it has 15.1% alcohol and a pH of 3.55. Enjoy now with roasted chicken or beef bourguignon, or age for 5-8 years. Priced at $70 for non-members."
+        ]
+      },
+      {
+        "tag": "Pacini",
+        "patterns": [
+          "What makes your 2020 Pacini Vineyards Zinfandel special?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2020 Pacini Vineyards Zinfandel is sourced from 134-year-old ancient vines in Talmage Bench, Mendocino County. Aged in used Chardonnay barrels, it features flavors of ripe cranberry, pomegranate, cherry cola, white pepper, and vanilla, with soft tannins and a long finish. With 14.9% alcohol, this wine pairs well with pasta, barbequed meats, or enjoyed on its own. Priced at $60 for non-members, it can be decanted for immediate enjoyment or aged up to 9 years."
+        ]
+      },
+      {
+        "tag": "Sauvignon",
+        "patterns": [
+          "Does Jessup Cellars offer Napa Valley Cabernet Sauvignon?"
+        ],
+        "responses": [
+          "Yes, Jessup Cellars offers a 2019 Cabernet Sauvignon from Napa Valley. It's a blend of:\n- 90% Napa Valley Cabernet Sauvignon (Chiles Valley AVA)\n- 5% Petite Sirah (Chiles Valley AVA)\n- 3% Merlot (Truchard Vineyard, Los Carneros)\n- 2.1% Cabernet Franc\n\nAged in 80% new French oak for 22 months, this wine has 14.9% alcohol and a pH of 3.65. Priced at $90, it offers juicy fruit flavors, rich tannins, and a long finish. Enjoy with beef or dishes with smoky, fatty, or charred qualities."
+        ]
+      },
+      
+      {
+        "tag": "Cabernets",
+        "patterns": [
+          "Besides Napa Valley Cabernet Sauvignon, does Jessup Cellars offer other Cabernets?"
+        ],
+        "responses": [
+          "Jessup Cellars offers a 2018 Alexander Valley Cabernet Sauvignon made with 96.5% Cabernet grapes and 3.5% Napa Valley Petite Sirah. This wine presents a dry, tannic finish with a full-bodied palate, suitable for aging another 5-8 years. Enjoy it now with a Filet Mignon or other red meat dishes. Aged in 80% new French oak, it has an alcohol content of 14.9% and is priced at $90 for non-members."
+        ]
+      },
+      {
+        "tag": "Rougette",
+        "patterns": [
+          "What varietal grapes are in your Rougette wine?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2019 Rougette is a blend of Spanish varietals:\n- 87% Grenache\n- 13% Carignane\n\nThese grapes are sourced from the Mendocino growing region, co-fermented and aged for 15 months in used Chardonnay barrels. With an alcohol content of 14.9% and a pH of 3.35, this wine offers opulent aromas of sweet strawberry, ripe cranberry jam, red plum, cassis, and nutmeg. The palate is dry and lifted, with fresh acidity and silky tannins. Priced at $60 for non-members, it pairs well with duck confit, mushroom risotto, or softer cheeses."
+        ]
+      },
+      {
+        "tag": "different",
+        "patterns": [
+          "What is different about your 2018 Rougette versus the 2019?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2018 Rougette is a blend of Mendocino Grenache and a touch of Carignane from Dry Creek AVA in Sonoma County. It features ripe red cherries, plums, cranberries, fig jam, and holiday baking spices. Aged in used Chardonnay barrels for 15 months, it shares the same alcohol content of 14.9% as the 2019 vintage. Priced at $70 for non-members, this wine will age nicely for 5-7 years and pairs well with holiday dishes like turkey and ham."
+        ]
+      },
+      {
+        "tag": "Juel",
+        "patterns": [
+          "What is the varietal mix for your Juel Red blend?"
+        ],
+        "responses": [
+          "Jessup Cellars' 2019 Juel Red Wine is a blend of:\n- 56% Napa Valley Cabernet Sauvignon\n- 14% Cabernet Franc\n- 24% Merlot (Truchard Vineyard)\n- 2% Petite Sirah (Napa Valley)\n- 2% Petite Verdot (Napa Valley)\n- 2% Malbec (Napa Valley)\n\nAged in 70% new French oak for 22 months, this harmonious composition showcases dark fruit, baking spices, and earthy elements in perfect unison. It has an alcohol content of 14.9% and a pH of 3.65. Priced at $115 for non-members, Juel is approachable yet age-worthy."
+        ]
+      },
+      
+      {
+        "tag": "Composition",
+        "patterns": [
+          "Composition of Juel Red blend"
+        ],
+        "responses": [
+          "The 2019 \"Juel\" Blend from Jessup Cellars is composed of:\n- 56% Napa Valley Cabernet Sauvignon\n- 14% Cabernet Franc\n- 24% Merlot (Truchard Vineyard)\n- 2% Petite Sirah (Napa Valley)\n- 2% Petite Verdot (Napa Valley)\n- 2% Malbec (Napa Valley)\n\nThis harmonious composition is aged in 70% new French oak for 22 months, with an alcohol content of 14.9% and a pH of 3.65."
+        ]
+      },
+      {
+        "tag": "quesFour Red Wine and Jueltions",
+        "patterns": [
+          "What is the difference between Jessup Table for Four Red Wine and Juel?"
+        ],
+        "responses": [
+          "Jessup Cellars' \"Table for Four\" and \"Juel\" blends offer distinct profiles:\n\n**Table for Four Red Wine**: This signature Cabernet Sauvignon-based blend features 61.8% Cabernet Sauvignon, 26.5% Cabernet Franc, 4.2% Petite Verdot, 3.5% Petite Sirah, 2.7% Malbec, and 1.1% Merlot. Aged in 70% new French oak for 22 months, it shares similar characteristics with Juel, including an alcohol content of 14.9% and a pH of 3.65. Price for non-members is $115.\n\n**Juel Red Blend**: Composed of 56% Cabernet Sauvignon, 14% Cabernet Franc, 24% Merlot (Truchard Vineyard), and 2% each of Petite Sirah, Petite Verdot, and Malbec (all from Napa Valley). Aged similarly in 70% new French oak for 22 months, with an alcohol content of 14.9% and a pH of 3.65."
+        ]
+      },
+      {
+        "tag": "Petite",
+        "patterns": [
+          "Does Jessup Cellars offer a 100% Petite Sirah?"
+        ],
+        "responses": [
+          "Yes, Jessup Cellars introduced their first estate-grown 100% Petite Sirah starting with the 2021 vintage. This wine offers a complex blend of flavors including blueberry, tart cherry, pomegranate, brown sugar, cassis, bourbon, sour mash, oak, cake batter, plum jam, cracked pepper, cedar, licorice, and raspberry. Aged for 22 months in a mix of used French and American barrels, it has an alcohol content of 15.6% and a pH of 3.65."
+        ]
+      },
+      {
+        "tag": "Port",
+        "patterns": [
+          "Does Jessup Cellars have fortified and Port style wines?"
+        ],
+        "responses": [
+          "Yes, Jessup Cellars produces fortified wines including a Zinfandel Port and a 100% Cabernet Sauvignon dessert wine."
+        ]
+      },
+      {
+        "tag": "Zinfandel",
+        "patterns": [
+          "What is the current Zinfandel Port release?"
+        ],
+        "responses": [
+          "Jessup Cellars' current Zinfandel Port release is the 2013 vintage, a 100% Zinfandel fortified with Brandy. It features bold aromatics of ripe raspberry, leather, and spice on the nose, with flavors of vanilla and red plum on the palate. The finish is strong yet balanced, making it a perfect match for blue cheese, dark chocolate, or a Maduro cigar. It has an alcohol content of 19.5% and is priced at $65 for non-members."
+        ]
+      },
+      
+      {
+        "tag": "quesReflectiontions",
+        "patterns": [
+          "What is unique about the 13th Reflection Tawny dessert wine?"
+        ],
+        "responses": [
+          "Crafted in the traditional Solera method, this rich and lush dessert wine offers pronounced aromas of stewed cherry, dried fig, chocolate, and baking spice with a kiss of sandalwood and cedar.\n\nA decadent and juicy palate of mixed berry preserves will make a perfect digestif after a rich meal. Deliciously sweet yet fresh, this wine will pair with desserts like chocolate lava cake or a cheese course of ripe, aged, salty cheeses. Enjoy it now or cellar for 10-15 years. \n\nThe Infinite Reflection 13th Recursion is 100% Napa Valley Cabernet Sauvignon aged for 12 years in French oak with an alcohol content of 19.5%. Non-members may purchase this wine for $85."
+        ]
+      },
+      {
+        "tag": "Solera",
+        "patterns": [
+          "What is the Solera method of dessert wine creation?"
+        ],
+        "responses": [
+          "The Solera method is a traditional aging and blending process commonly used in the production of fortified wines, including dessert wines like Sherry and Madeira. Here's how it works:\n\nTiered Stacking: The process begins with a series of barrels or casks arranged in a tiered system called a \"solera stack.\" The bottom row contains the oldest wine, while subsequent rows contain progressively younger wines.\n\nFractional Blending: Each year, a portion of wine is drawn from the bottom row of barrels for bottling. This creates space in those barrels, which are then topped up with wine from the row above. The process continues up the stack, with each barrel being partially emptied and then replenished with younger wine.\n\nAging and Maturity: Because the barrels are only partially emptied each year, a portion of the older wine always remains in the barrels, contributing to the complexity and depth of flavor. Over time, the younger wines gradually blend with and inherit characteristics from the older wines.\n\nConsistency: The Solera method ensures consistency in the final product, as the blend of wines remains relatively constant over time. Even though some wine is removed for bottling each year, the overall character of the solera remains consistent due to the blending of older and younger wines.\n\nPerpetual Process: The Solera system is designed to be perpetual, with new wine continuously added at the top and matured wine drawn from the bottom for bottling. This allows producers to maintain a consistent product while also ensuring that some of the original wine remains in the solera stack, sometimes for many years or even decades.\n\nOverall, the Solera method is a meticulous and time-honored process that results in complex, well-balanced dessert wines with layers of flavor and aroma."
+        ]
+      },
+      {
+        "tag": "tasting_experiences",
+        "patterns": [
+          "What tasting experiences are available at Jessup Cellars?"
+        ],
+        "responses": [
+          "Jessup Cellars offers several tasting experiences for wine enthusiasts:\n\n1. **Light Flight**: Enjoy a selection of 3 wines, starting with either the 2022 Chardonnay or the 2021 Pinot Noir. Cost: $30 per person. Tasting fee waived with any wine purchase over $50.\n\n2. **Jessup Classic Tasting**: This popular choice includes a flight of 5 wines paired perfectly with cheeses, accompanied by palate-cleansing Marcona almonds and a chocolate surprise. Cost: $60 per person. Tasting fee waived with a purchase of two or more bottles of wine per person.\n\nWalk-ins are welcome for the Light Flight, and reservations are recommended for the Jessup Classic Tasting."
+        ]
+      },
+      {
+        "tag": "tastings",
+        "patterns": [
+          "What is the most popular tasting experience?"
+        ],
+        "responses": [
+          "Our most popular tasting experience is the Jessup Classic Tasting. It features a flight of 5 wines expertly paired with cheeses, complemented by palate-cleansing Marcona almonds and a delightful chocolate surprise. The cost is $60 per person, and the tasting fee is waived with a purchase of two or more bottles of wine per person. Reservations are recommended for this experience to ensure availability."
+        ]
+      },
+      {
+        "tag": "walk_ins",
+        "patterns": [
+          "Are walk ins allowed?"
+        ],
+        "responses": [
+          "Walk-ins are welcome anytime for our Light Flight experience. Our most popular tasting experience is the Jessup Classic Tasting, which includes a flight of 5 wines perfectly paired with cheeses, accompanied by palate-cleansing Marcona almonds and a chocolate surprise. The Classic Tasting is $60 per person, but is waived with a purchase of two or more bottles of wine per person."
+        ]
+      },
+      {
+        "tag": "in_home_tasting",
+        "patterns": [
+          "Are there in-home tasting experiences available from Jessup Cellars?"
+        ],
+        "responses": [
+          "Jessup Cellars offers \"Wine on Location\" tasting experiences nearly anywhere in the lower 48 states in the U.S.\nWine Tasting In Your Dining Room! A Jessup Cellars Wine Educator will travel to your home and host a tasting for your friends & colleagues! And it’s complimentary once everyone purchases 3 to 4 bottles. Navigate to https://jessupcellars.com/in-home-wine-tastings/ to learn more and schedule your private tasting experience with your friends, family, or colleagues. Throughout the year, our passionate educator, Adrienne, travels nationwide crafting exceptional Jessup Cellars Experiences. Forget about coordinating a whole trip to Napa Valley – our tasting room is now in your dining room."
+        ]
+      },
+      {
+        "tag": "memberships",
+        "patterns": [
+          "Do you offer memberships?",
+          "Does Jessup Cellars offer wine club memberships?"
+        ],
+        "responses": [
+          "Jessup Cellars offers 3 different membership options, providing flexible quantities and choices of wines with no member fees:\n\nThe Tasting Club delivers 3 bottles of wine curated by our team four times per year which may be shipped to your home or business, or you always have the option to come pick up your wines at our Yountville tasting room. The average cost of each shipment is approximately $200 plus shipping which varies by region and shipping method.\n\nMy Jessup Cellar 6 membership offers 6 bottles twice per year in April and September and adds the benefit of choice to the program. You may choose your wines in advance and define the cost based on your selections. The typical Jessup Cellars 6 cost is about $400 twice per year plus shipping which varies by region and shipping method.\n\nFinally, My Jessup Cellar 12 includes 12 bottles of wine twice per year, also in April and September with an average cost per shipment of $800, and of course you always have the option to pick up your wines if you are in the area. The My Jessup 12 members also receive $20 flat rate shipping anywhere in the lower 48 states.\n\nAll of our wine clubs offer the benefits of not only receiving a 15% discount on ALL wine purchases and re-orders, but also free tastings a couple of times per year with up to 4 guests in our Yountville Tasting Gallery. We also offer a $25 gift card if your guests become members while enjoying a tasting at our Jessup Cellars Tasting Room & Gallery."
+        ]
+      },
+      {
+        "tag": "hotels_nearby",
+        "patterns": [
+          "What hotels are located near Jessup Cellars?"
+        ],
+        "responses": [
+          "There are a number of beautiful hotels in Yountville, the home of Jessup Cellars tasting room, the oldest in Yountville. Yountville, California, located in Napa Valley, is known for its charming atmosphere, world-class dining, and luxury accommodations. Here are some notable hotels in Yountville:\n\nBardessono Hotel and Spa: This LEED Platinum-certified hotel offers luxurious suites with modern amenities, an on-site spa, and a farm-to-table restaurant.\n\nHotel Yountville: A boutique hotel featuring elegant rooms, lush gardens, a spa, and a renowned restaurant, all within walking distance of downtown Yountville.\n\nVintage House: A luxury hotel with spacious guest rooms, beautifully landscaped grounds, a pool, and access to the nearby Estate Yountville, which includes additional dining options and amenities.\n\nNorth Block Hotel: This Mediterranean-inspired hotel offers stylish accommodations, a tranquil courtyard, a pool, and a popular restaurant serving Italian cuisine. It is directly across the street from Jessup Cellars and offers special deals on wine tasting at Jessup.\n\nThe Estate Yountville: A sprawling resort that includes several luxury hotels such as Vintage House and Hotel Villagio, as well as upscale dining options, a spa, and event venues.\n\nNapa Valley Lodge: The Napa Valley Lodge is a charming boutique hotel located in Yountville, California, at the heart of Napa Valley wine country and offers 2 for 1 tastings at Jessup Cellars.\n\nLocation: Situated on Highway 29, the main thoroughfare through Napa Valley, the Napa Valley Lodge offers convenient access to numerous wineries, restaurants, and attractions in Yountville and beyond.\n\nAccommodations: The lodge features spacious and well-appointed guest rooms and suites, each designed with comfort and relaxation in mind. Many rooms offer views of the surrounding vineyards or the beautifully landscaped gardens."
+        ]
+      },
+      {
+        "tag": "amenities",
+        "patterns": [
+          "What amenities are available at Napa Valley Lodge?"
+        ],
+        "responses": [
+          "Amenities: Guests at the Napa Valley Lodge can enjoy a range of amenities, including a heated outdoor pool and hot tub, a fitness center, and complimentary bicycle rentals for exploring the local area.\nBreakfast: A complimentary breakfast buffet is served daily, featuring a selection of fresh pastries, fruit, yogurt, cereals, and hot items.\nConcierge Services: The lodge offers concierge services to help guests plan their stay, including arranging wine tastings, restaurant reservations, and transportation.\nMeeting and Event Space: The Napa Valley Lodge also offers meeting and event space for corporate gatherings, weddings, and other special occasions, with indoor and outdoor venues available.\nOverall, the Napa Valley Lodge provides a comfortable and welcoming retreat for visitors to Napa Valley, with its picturesque setting overlooking one of Grgich Hills vineyards.\n\nThese are just a few of the notable hotels in Yountville, each offering its own unique blend of luxury, comfort, and hospitality amidst the stunning backdrop of Napa Valley wine country."
+        ]
+      },
+      {
+        "tag": "Thomas",
+        "patterns": [
+          "What Thomas Keller restaurants are located in Yountville?"
+        ],
+        "responses": [
+          "Thomas Keller, one of the most celebrated chefs in the world, has several restaurants in Yountville, California. Here are the Thomas Keller restaurants in Yountville:\n\nThe French Laundry: Arguably Keller's most famous restaurant, The French Laundry is a culinary icon known for its exquisite tasting menus, impeccable service, and award-winning wine list. The restaurant is housed in a historic stone building and offers a refined dining experience.\nBouchon Bistro: Located across the street from The French Laundry, Bouchon Bistro is a casual French brasserie serving classic bistro fare. The menu features dishes like steak frites, roast chicken, and seafood, as well as a selection of house-made pastries and desserts.\nBouchon Bakery: Adjacent to Bouchon Bistro, Bouchon Bakery offers a tempting array of artisanal breads, pastries, sandwiches, and desserts, as well as coffee and espresso drinks. The bakery is a popular spot for breakfast, lunch, and afternoon snacks.\nAdHoc: Ad Hoc is another renowned restaurant in Yountville, California, founded by Thomas Keller. Unlike The French Laundry or Bouchon, Ad Hoc offers a more casual dining experience with a focus on family-style meals and is famous for its fried chicken on Monday evenings which is served as part of the fixed-price, family-style dinner menu. However, it's always a good idea to check Ad Hoc's website or call ahead to confirm the schedule, as restaurant operations and special events may vary.\nRO Restaurant and Lounge: Formerly the Regiis Ova Caviar & Champagne Lounge has reopened as a whole new dining spot in Yountville. Alongside chef de cuisine Jeffery Hayashi, Keller has created a fresh menu with a focus on Asian-inspired cuisine, as well as wine, cocktails, and a large selection of Champagne and sparkling.\nLa Calenda: Also located in Yountville, California, La Calenda is a remarkable addition to the culinary scene in Napa Valley. Another Thomas Keller creation, La Calenda is a Mexican restaurant inspired by the rich culinary traditions of Oaxaca, Mexico. It offers a modern take on classic Mexican dishes while honoring authentic flavors and techniques. Don't miss the Mole and the margaritas!"
+        ]
+      },
+      {
+        "tag": "restaurants",
+        "patterns": [
+          "What other restaurants of note are in Yountville?"
+        ],
+        "responses": [
+          "Bistro Jeanty: A beloved French bistro located in Yountville, California, known for its authentic French cuisine and charming ambiance. Bistro Jeanty offers a menu inspired by traditional French cooking, featuring dishes like coq au vin, cassoulet, escargot, steak frites, and more. The cuisine is hearty, comforting, and prepared with meticulous attention to detail. Don't miss the tomato bisque in puff pastry!\nLucy Restaurant & Bar: Lucy offers farm-to-table California cuisine with a focus on fresh, locally sourced ingredients. The menu features a variety of dishes inspired by the seasons, including salads, seafood, meats, and vegetarian options. You must try their brunch menu on weekends as it is the best breakfast in Yountville.\nCiccio: Ciccio offers contemporary Italian cuisine with a focus on fresh, seasonal ingredients. The menu features a variety of classic Italian dishes, as well as innovative interpretations of Italian favorites. Pasta, pizza, seafood, and meat dishes are all staples of the menu.\nR&D Kitchen: Experience stunning vineyard views from this airy modern building. Featuring outdoor seating with relaxing Adirondack chairs clustered around fire pits, R+D Kitchen brings sophisticated and fresh cuisine to a smart and convivial crowd. With a strong local following in each neighborhood, R+D is inspired by California’s indoor/outdoor culture with spaces that are light-filled and intimate in feel. Sit at the outdoor bar and enjoy the perfect Napa Valley weather while sipping on a glass of Sauvignon Blanc and sharing a dip duo with friends. If you are looking for a simple place to have one of the best margaritas in town, look no further. R+D Kitchen’s menu features fresh seasonal ingredients and a little something for everyone from sushi to steak and sandwiches to salads. They also have amazing takeout pizza at their To-Go location next door.\nBottega: Bottega offers an unmistakably Italian sense of style in a stunning Napa Valley setting. Dine outside on their expansive patio, complete with two stone fireplaces to warm you on the coolest Napa nights. Inside, you’ll find a warm, rustic setting adorned with Venetian plaster, Murano glass chandeliers, soft leather chairs, and ample tables — the perfect atmosphere for a meal and an experience to remember.\nOttimo: In Italian, Ottimo means optimal, first-rate, excellent. Michael Chiarello shares a lifetime of learning in the kitchen, with pizzas, fresh mozzarella, coffee, wine, beer, and handcrafted products.\nCoqueta Napa Valley: Coqueta means “flirt” or “infatuation” in Spanish and represents Michael Chiarello and his team’s exploration and interpretation of Spanish Cuisine, wine, and inspired cocktails, while highlighting the bounty of Northern California.\nRH Restaurant at RH Yountville: The RH Restaurant is part of the five-building RH Yountville compound located in the heart of Napa Valley. An integration of food, wine, art, and design, the restaurant features timeless classics for brunch and dinner, as well as a selection of wines from esteemed vintners in the United States and Europe. RH Yountville also features a wine vault.\nThe Kitchen at Priest Ranch: Eat, Drink, Gather - The Kitchen at Priest Ranch combines the vibrant flavors of seasonal American cuisine with the regional influences of the Midwest. At The Kitchen, they source only the freshest locally grown ingredients to create high-quality, approachable dishes that showcase Napa Valley’s bountiful produce in each bite. They believe that great food should be accessible to everyone, so they offer a warm and inviting atmosphere, making The Kitchen the perfect spot for a casual yet elevated experience."
+        ]
+      },
+      {
+        "tag": "shops",
+        "patterns": [
+          "Are there any pastry or chocolate shops in Yountville?"
+        ],
+        "responses": [
+          "Fortunately, there are a couple of great choices to satisfy your sweet tooth in Yountville.\nKollar Chocolates: Kollar Chocolates is an award-winning artisan chocolate shop in the heart of Yountville in the Napa Valley. Kollar Chocolates’ mission is to elevate chocolate into a sensory experience driven by new world flavors, modern artistry, ethically sourced ingredients, and innovation. \nAccolades include... TOP 10 CHOCOLATIERS OF NORTH AMERICA by Dessert Professional Magazine\nFOOD NETWORK’S CHOPPED WINNER 2020 - Episode 1, Season 42, “Sweet and Salty Success”\nFEATURED IN OPRAH’S O MAGAZINE - Easter Favorite Things, 2018\nMadeleine's Macarons: \"Handmade French Macarons from the heart of Napa Valley, breakfast and lunch crepes, the best coffee in town, and house-made ice cream with local fresh ingredients!\"\nThe Model Bakery: For close to 90 years, The Model Bakery has been part of the Napa Valley culinary scene, providing discerning and hungry residents and valley visitors with the best breads, pastries, and coffee at the original location on Main Street in St. Helena. Karen Mitchell, once a successful caterer in the Napa Valley, has been the proprietor of The Model Bakery for nearly 30 years, and the Model Bakery in Yountville is in the Caboose at the Railroad Inn Yountville."
+        ]
+      },
+      {
+        "tag": "market",
+        "patterns": [
+          "Is there a market in Yountville?"
+        ],
+        "responses": [
+          "Ranch Market Too: In July 1977, the Housley's opened Ranch Market Too in Yountville, and in April 1996, their son, Arik Housley, graduated from Pepperdine University and returned to the valley to take over the family businesses. In 2008, the deli business in the Yountville store was sold to become an independent deli which has since become Velo Pizza and Deli with pizza by the slice and great deli sandwiches."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where is Yountville?"
+        ],
+        "responses": [
+          "Yountville, California is located 9 miles north of Napa and 9 miles south of St. Helena in the center of the Napa Valley. You can reach Yountville by car from anywhere in the Northern California Bay Area in about an hour, while travelers from the Sacramento region will take about 1.5 hours. The area is served by multiple airports including SFO, Oakland, Sacramento, and Santa Rosa."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where is Jessup Cellars?"
+        ],
+        "responses": [
+          "Jessup Cellars and Tasting Gallery is located at 6740 Washington St. at the North end of Yountville across from RH Yountville and North Block Restaurant. We are open from 10AM to 6PM 7 days a week and can be reached at 707.944.5620 for reservations and information."
+        ]
+      },
+      {
+        "tag": "online",
+        "patterns": [
+          "How do I find Jessup Cellars online?"
+        ],
+        "responses": [
+          "Jessup Cellars can be found at https://jessupcellars.com/ where you may find directions, purchase wine, or make reservations for tastings at our Yountville tasting room."
+        ]
+      },
+      {
+        "tag": "atmosphere_seating",
+        "patterns": [
+          "What is the atmosphere like at Jessup Cellars and what seating options are available?"
+        ],
+        "responses": [
+          "Jessup Cellars has a casual and inviting atmosphere and was the first tasting room opened in Yountville in 2003. You have the option of sitting inside our stunning art gallery or you may choose to enjoy the patio with giant umbrellas. We also have space available for private groups and special accommodations and snacks for your children."
+        ]
+      },
+      {
+        "tag": "best_red_wine",
+        "patterns": [
+          "What is your best red wine?",
+          "Which is the top red wine at Jessup Cellars?",
+          "Can you recommend your finest red wine?"
+        ],
+        "responses": [
+          "At Jessup Cellars, one of our most celebrated red wines is the **Cabernet Sauvignon**. It consistently receives high praise for its rich, full-bodied flavor, complex notes of dark fruit, and smooth finish. It's a favorite among our members and visitors, and pairs exceptionally well with a variety of dishes."
+        ]
+      },
+      
+      {
+        "tag": "lead_artist",
+        "patterns": [
+          "Who is the lead artist at Jessup Cellars and what is unique about the art displayed in the gallery?"
+        ],
+        "responses": [
+          "Our fine art is meticulously curated by our lead artist Jermaine Dante who exhibits his colorful creations in large formats in our spacious gallery where you can take in, or take home the inspiring art while imbibing your favorite Jessup wines."
+        ]
+      },
+      {
+        "tag": "welcoming_approach",
+        "patterns": [
+          "What is the approach to welcoming guests at Jessup Cellars?"
+        ],
+        "responses": [
+          "BOTH SEASONED WINE LOVERS, AND THOSE JUST LEARNING ABOUT WINE, ARE EMBRACED AND WELCOMED AT JESSUP CELLARS."
+        ]
+      },
+      {
+        "tag": "location_availability",
+        "patterns": [
+          "Where is Jessup Cellars located and how are their wines made available?"
+        ],
+        "responses": [
+          "Located just a block north from the famed The French Laundry in the quaint village of Yountville, our wines are available exclusively through our Tasting Room Gallery and website."
+        ]
+      },
+      {
+        "tag": "founders_mission",
+        "patterns": [
+          "Who founded Jessup Cellars and what is their mission?"
+        ],
+        "responses": [
+          "Founded by Dan and Becky Blue, Roy and Cheri Eisiminger, Vance and Jana Thompson, Jim and Kelly Mazzo, Kerry and Cindi Solomon, and Eric and Marleen Donnenfeld, their mission is to create and share life-enriching experiences for their members and guests, while also giving back to the community through the support of the arts."
+        ]
+      },
+      {
+        "tag": "unique_tasting_experiences",
+        "patterns": [
+          "What unique tasting experiences does Jessup Cellars offer?"
+        ],
+        "responses": [
+          "Guests at Jessup Cellars may choose to taste at its wine bar or relax with sit-down, hosted tastings in the winery’s spacious gallery among curated art, which features rotating installations by celebrated regional and national artists."
+        ]
+      },
+      {
+        "tag": "interactive_experiences",
+        "patterns": [
+          "What interactive experiences with a focus on the arts does Jessup Cellars specialize in hosting?"
+        ],
+        "responses": [
+          "The winery also specializes in hosting interactive experiences with a focus on the arts. Highlights include its Art House Sessions summer music series and Art House Short Film Series."
+        ]
+      },
+      {
+        "tag": "wine_club_membership",
+        "patterns": [
+          "What makes Jessup Cellars wine club membership special?"
+        ],
+        "responses": [
+          "All of the above, along with exclusive access to limited release wines and member-only events, makes Jessup Cellars wine club membership one of the best experiences in wine – both in the Napa Valley, and when guests travel home to share great wine and food with friends and family. For the owners and staff, it’s all about creating a community to share their love of wine, the arts, and everything that makes the Napa Valley so special."
+        ]
+      },
+      {
+        "tag": "current_gallery_feature",
+        "patterns": [
+          "Who is the current gallery feature at Jessup Cellars?"
+        ],
+        "responses": [
+          "Meet our new resident artist at the Jessup Gallery, Jermaine Danté. As a resident of Napa Valley, Jermaine’s artwork is characterized by its bold strokes and evocative imagery, serving as a perfect embodiment of the symbiotic relationship between art and wine. A certified sommelier, Jermaine captures the essence of Wine Country in many of his pieces, infusing them with his unique perspective and artistic flair. Come by to see his art on display this summer and enjoy a glass of wine as you stroll through the gallery."
+        ]
+      },
+      {
+        "tag": "location_hours_contact",
+        "patterns": [
+          "Where is Jessup Cellars located and what are the hours of operation?",
+          "How can I contact Jessup Cellars?"
+        ],
+        "responses": [
+          "Jessup Cellars and Tasting Gallery is located at 6740 Washington St. at the North end of Yountville across from RH Yountville and North Block Restaurant. We are open from 10AM to 5:30PM 7 days a week and can be reached at 707.944.5620 for reservations and information. Jessup Cellars can be found at https://jessupcellars.com/ where you may find directions, purchase wine or make reservations for tastings at our Yountville tasting room."
+        ]
+      },
+      {
+        "tag": "location_information",
+        "patterns": [
+          "Where is Yountville located and how can it be reached?"
+        ],
+        "responses": [
+          "Yountville, California is located 9 miles north of Napa and 9 miles south of St. Helena in the center of the Napa Valley. You can reach Yountville by car from anywhere in the Northern California Bay Area in about an hour, while travelers from the Sacramento region will take about 1.5 hours. The area is served by multiple airports including SFO, Oakland, Sacramento and Santa Rosa."
+        ]
+      },
+      {
+        "tag": "dog_friendly",
+        "patterns": [
+          "Does Jessup Cellars allow dogs and what amenities are available for them?"
+        ],
+        "responses": [
+          "Jessup Cellars welcomes your well-behaved dogs inside or outside and we have gluten free dog treats available as well as water dishes."
+        ]
+      },
+      {
+        "tag": "consulting_winemaker",
+        "patterns": [
+          "Who is the consulting winemaker at Jessup Cellars and what is their contribution?"
+        ],
+        "responses": [
+          "Jessup Cellars wines are carefully crafted with the help of our renowned consulting winemaker Rob Lloyd who famously crafted Chardonnay for Rombauer, La Crema and Cakebread. Not only has Rob created one of the best Chardonnays in the Napa Valley with our 2022 vintage, but has also helped curate 'The Art of the Blend' with our stellar red wines."
+        ]
+      },
+      {
+        "tag": "awards_recognition",
+        "patterns": [
+          "What awards and recognitions has Jessup Cellars received?"
+        ],
+        "responses": [
+          "Over the past several years, Jessup Cellars has won numerous awards including CellarPass’ ‘Friendliest & Most Knowledgeable Staff’ three years in a row, Napa Valley Life magazine’s ‘Best Wine Club’ and, recently, Yountville’s ‘Business of the Year’."
+        ]
+      },
+      {
+        "tag": "team_recognition",
+        "patterns": [
+          "What recognition has the Jessup Cellars team received?"
+        ],
+        "responses": [
+          "Jessup Cellars Team VOTED MOST FRIENDLY & KNOWLEDGEABLE STAFF 4 YEARS IN A ROW!"
+        ]
+      },
+      {
+        "tag": "rob_lloyd_biography",
+        "patterns": [
+          "What is the background and biography of Rob Lloyd?"
+        ],
+        "responses": [
+          "Rob’s foray into wine started directly after graduating college when he came to Napa to work in a tasting room for the summer – before getting a ‘real job’. He became fascinated with wine and the science of winemaking and began to learn everything he could about the process. While interviewing for that “real job”, the interviewer asked him what he had been doing with his time since graduation. After speaking passionately and at length about wine, the interviewer said, “You seem to love that so much. Why do you want this job?” Rob realized he didn't want it, actually. He thanked the man, and thus began a career in the wine industry. Rob has since earned his MS in Viticulture & Enology from the University of California Davis and worked for many prestigious wineries including Cakebread, Stag’s Leap Wine Cellars, and La Crema. Rob began crafting Jessup Cellars in the 2009 season and took the position of Director of Winemaking at Jessup Cellars in 2010. He now heads up our winemaking for the Good Life Wine Collective, which also includes Handwritten Wines."
+        ]
+      },
+      {
+        "tag": "rob_lloyd_favorite_pairing",
+        "patterns": [
+          "What is Rob Lloyd's favorite Jessup Wine pairing?"
+        ],
+        "responses": [
+          "Rob Lloyd's favorite Jessup Wine pairing is Carneros Chardonnay with freshly caught Mahi-Mahi."
+        ]
+      },
+      {
+        "tag": "bernardo_munoz_biography",
+        "patterns": [
+          "What is the background and biography of Bernardo Munoz?"
+        ],
+        "responses": [
+          "Bernardo began his career in the vineyards, learning the intricacies of grape growing and how to adjust to the whims of Mother Nature. He then moved into the cellars at Jessup Cellars, bringing us his complete grape to bottle knowledge to the team. He has a keen understanding of what it takes to make a great bottle."
+        ]
+      },
+      {
+        "tag": "bernardo_munoz_favorite_pairing",
+        "patterns": [
+          "What is Bernardo Munoz's favorite Jessup Wine pairing?"
+        ],
+        "responses": [
+          "Bernardo Munoz's favorite Jessup Wine pairing is 2010 Manny’s Blend with Mongolian Pork Chops from Mustards Grill – richness paired with richness."
+        ]
+      },
+      {
+        "tag": "white_wine_leading",
+        "patterns": [
+          "What is Jessup Cellars' leading white wine and where is it sourced from?"
+        ],
+        "responses": [
+          "Our leading white wine is our Napa Valley Chardonnay from the Los Carneros region. The Truchard Vineyard is perfectly located in the hills above Highway 12 with the San Francisco Bay influences creating a cooler growing climate where the grapes ripen slowly and perfectly on the vine. The perfect weather combines with an ideal terroir to create the foundation for a well-balanced Chardonnay aged for 10 months in 40% new American Oak barrels."
+        ]
+      },
+      {
+        "tag": "sauvignon_blanc_harvest",
+        "patterns": [
+          "What is unique about Jessup Cellars' Sauvignon Blanc?"
+        ],
+        "responses": [
+          "We also offer an annual harvest of Sauvignon Blanc which is sourced from North Coast vines outside of the Napa Valley. The tropical nature of our 2023 Sauvignon Blanc is decidedly different than the typical Sauvignon Blanc grown in the Valley and elsewhere in the World. Due to its limited supply this wine sells out quickly each year so be sure to give us a call before visiting our tasting room to check availability."
+        ]
+      },
+      {
+        "tag": "chardonnay_2022",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars 2022 Chardonnay?"
+        ],
+        "responses": [
+          "The Jessup Cellars 2022 Chardonnay is a white wine that comes across as very well balanced due to the aging being done in a combination of 40% new American and 60% neutral American Oak. This brings hints of oak to the wine while also offering a slightly creamy mouth feel without being a butter bomb. Our Napa Valley Chardonnay is a member favorite while the non-member price of $55 is appreciated by enthusiasts of this quality wine crafted by Rob Lloyd. The alcohol content is 14.8% while the PH is 3.4."
+        ]
+      },
+      {
+        "tag": "sauvignon_blanc_2023",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars 2023 Sauvignon Blanc?"
+        ],
+        "responses": [
+          "Our sold out 2023 100% Sauvignon Blanc vintage is sourced from North Coast vineyards aged in 100% stainless steel barrels which is typical for this varietal. The stainless steel seals out the oxygen and seals in the flavors of the fruit and is a hearty 15.1% alcohol content with a PH of 3.3. While it's nose and flavors hint at tropical delights, we would not consider this wine to be too fruit forward, but rather fruit balanced with hints of pineapple and mango. Our Sauvignon Blanc is the perfect hot tub wine or for those warm summer evenings after a long day in the hot summer Sun. You will feel refreshed after enjoying a glass or two of our Sauvignon Blanc, non-member price of $45!"
+        ]
+      },
+      {
+        "tag": "sauvignon_blanc_pairings",
+        "patterns": [
+          "What dishes pair well with Jessup Cellars 2023 Sauvignon Blanc?"
+        ],
+        "responses": [
+          "The 2023 Sauvignon Blanc pairs wonderfully with a variety of dishes, enhancing the dining experience. For starters, it complements the flavors of Grilled Prawn Cocktail and Ceviche, accentuating the seafood's delicate taste and brightening the citrus elements in the dishes. The wine's fruity and floral notes beautifully complement the freshness of Tacos, making it an ideal match for this flavorful and versatile Mexican dish. Lastly, the wine's high acidity and fruit-forward character provide a delightful contrast to the creamy sweetness of a Peach & Burrata salad, creating a harmonious and memorable pairing."
+        ]
+      },
+      {
+        "tag": "red_wines_offered",
+        "patterns": [
+          "What red wines does Jessup Cellars offer?"
+        ],
+        "responses": [
+          "Jessup Cellars offers a number of red wines across a range of varietals, from Pinot Noir and Merlot blends from the Truchard Vineyard, to blended Cabernet Sauvignon from both the Napa and Alexander Valleys, our Mendocino Rougette combining Grenache and Carignan varietals which we refer to as our 'Summer Red', to the ultimate expression of the 'Art of the Blend' with our Juel and Table for Four Red Wines. We also offer 100% Zinfandel from 134 year old vines in the Mendocino region and our own 100% Petite Sirah grown in the Wooden Valley in Southeastern Napa County. We also offer some seasonal favorites, led by the popular whimsical Manny's Blend which should be released later in 2024 with a very special label."
+        ]
+      },
+      {
+        "tag": "pinot_noir_unique",
+        "patterns": [
+          "What makes Jessup Cellars' Pinot Noir unique?"
+        ],
+        "responses": [
+          "What makes our Pinot Noir unique from typical Pinot is the added element of the Jessup 'Art of the Blend'. While it is 96.7% Pinot Noir with fruit sourced from our favorite Los Carneros Truchard Vineyard, our master winemakers blend in a little (3.3%) of our own Petite Sirah from our estate vineyard in the Wooden Valley area of Southeastern Napa County and age it in 50% new French oak for 10 months. The alcohol content of this vintage is 14.8% with a PH of 3.45. This gives our 2021 Pinot Noir a much bolder color, very different from your typical light and bright Pinot you may be accustomed to. This also adds body to the wine which has become a member favorite at Jessup Cellars, priced at $70 for non-members."
+        ]
+      },
+      {
+        "tag": "rougette_blend",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2019 Rougette?"
+        ],
+        "responses": [
+          "Jessup Cellars 2019 Rougette is the perfect blend of Spanish varietals including 87% Grenache and 13% Carignane, both coming from our Mendocino growing region which is particularly suited for what we refer to as our 'Summer Red'. This beautiful wine of co-fermented Grenache and Carignan varieties greets you with opulent aromas of sweet strawberry, ripe cranberry jam, red plum, cassis, and nutmeg. We age this wine by co-fermenting the varietals for 15 months in used (neutral) Chardonnay barrels and delivers a 14.9% alcohol content with a PH of 3.35. The non-member price is $60. The palate is wonderfully dry and lifted with fresh acidity and silky, rich tannins. Flavors of brambly, ripe fruit make this wine exceptionally palatable and food-friendly. Enjoy it with duck confit, mushroom risotto or an assortment of softer cheeses. Drink now or cellar 2-3 years."
+        ]
+      },
+      {
+        "tag": "zinfandel_2020",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2020 Zinfandel?"
+        ],
+        "responses": [
+          "Jessup Cellars has a history of making fine big Zinfandels, but the 2020 Pacini Vineyards 100% Zinfandel from the Talmage Bench in Mendocino County is decidedly different than your typical Zin, with the grapes for this wine coming from 134 year old 'ancient vines'. Brimming with nuances of ripe cranberry, pomegranate, cherry cola, white pepper, and vanilla, this wine offers soft tannins with a nice, long finish. This wine is aged in used (neutral) Chardonnay barrels with an alcohol content of 14.9%. The price is $60 for non-members. Pair with pastas, barbequed meats or just pour yourself a glass and enjoy on its own. Drink now after decanting or age for up to 9 years."
+        ]
+      },
+      {
+        "tag": "merlot_2019",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2019 Merlot?"
+        ],
+        "responses": [
+          "Our 2019 Jessup Cellars Merlot is from the Truchard Vineyard in the Los Carneros region of the Napa Valley which enjoys the San Francisco Bay influences that also envelope our Chardonnay and Pinot Noir. The terroir is ideally suited for a full bodied Merlot and like many of our wines, our Merlot is reflective of the 'Art of the Blend' by our winemakers. The 2019 Merlot is 80% Merlot, 16.5% Cabernet Sauvignon from the Chiles Valley AVA in Northeastern Napa County and a splash of our Petite Sirah (3.5%) from the same location finishes the wine perfectly. Our merlot is aged for 22 months in 40% new American/French oak with an alcohol content of 15.1% with a PH level of 3.55. This wine drinks well now, however, will continue to age gracefully for another 5-8 years. We recommend trying this delicious Merlot with roasted chicken and vegetables or beef bourguignon. Non-members can pick up our 2019 Napa Valley Merlot for $70."
+        ]
+      },
+      {
+        "tag": "napa_valley_cabernet_sauvignon",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2019 Napa Valley Cabernet Sauvignon?"
+        ],
+        "responses": [
+          "Jessup’s Napa Valley Cabernet Sauvignon is a staple of most Napa Valley winemakers with Jessup offering our 2019 Cabernet Sauvignon for 2024. As with most of our red wines, our winemakers exercise 'The Art of the Blend' by starting with 90% Napa Valley fruit from the Chiles Valley AVA in Northeastern Napa County, then blend in 5% Petite Sirah from the same AVA, 3% Merlot from our Truchard Vineyard in the Los Carneros region, then finish it with 2.1% Cabernet Franc, which is the parent grape of both Cabernet Sauvignon and Merlot, often used in blended wines. Cabernet Franc originated in the Bordeaux region of France and to honor that provenance, we age our 2019 Jessup Cellars Cabernet Sauvignon in 80% new French oak for 22 months. Alcohol content in this varietal is 14.9% with a PH of 3.65. You can purchase our 2019 Cab for $90. The palate of the wine matches the aromatics providing juicy fruit flavors, rich tannins and a long finish. This wine drinks well now however will age gracefully for the next 5-8 years. Enjoy this Cabernet Sauvignon with a quality cut of beef or any dish that has a nice smoky/fatty/or charred quality."
+        ]
+      },
+      {
+        "tag": "alexander_valley_cabernet_sauvignon",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2018 Alexander Valley Cabernet Sauvignon?"
+        ],
+        "responses": [
+          "Jessup Cellars has also created a 2018 Alexander Valley Cabernet Sauvignon with 96.5% Cabernet grapes, finished with 3.5% Napa Valley Petite Sirah fruit. This wine has a very different nose and mouth feel than our 2019 Cabernet, presenting a dry, more tannic finish which still feels young but full bodied as it crosses your palate. You could lay this bottle down for another 5-8 years as you wait for it to soften, but if you want to drink it now, we encourage you to pair this wine with a nice Filet Mignon or other red meat. Our Alexander Valley Cabernet is aged in 80% new French oak with an alcohol content of 14.9% and may be purchased for $90 for non-members."
+        ]
+      },
+      {
+        "tag": "graziella_sangiovese_blend",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2019 Graziella Sangiovese Blend?"
+        ],
+        "responses": [
+          "'Graziella' is one of the most unique wines that we produce. This harmonious blend of Sangiovese and Cabernet Sauvignon is one of our smallest production wines which makes it a very special treat for whoever is able to get their hands on it! Our 2019 'Graziella' showcases a perfect balance on the nose and palate, expressing aromas and flavors of strawberry, red plum, raspberry, vanilla, and rose petal. The mouthfeel is bright and has just the right amount of acidity which makes this wine a wonderful compliment to a variety of dishes. Pair 'Graziella' with red sauce dishes like lasagna or spiced meat dishes like lamb with rosemary. Drink now or cellar this wine for another 5-8 years to see how beautifully it develops."
+        ]
+      }, 
+      {
+        "tag": "fortified_port_wines_offered",
+        "patterns": [
+          "What fortified and port-style wines does Jessup Cellars offer?"
+        ],
+        "responses": [
+          "Jessup Cellars makes a few fortified vintages of their Zinfandel Port and offers a 100% Cabernet Sauvignon dessert wine. Jessup Cellars is currently offering our 2013 100% Zinfandel Port fortified with Brandy and the 13th Reflection Tawny dessert wine."
+        ]
+      },
+      {
+        "tag": "zinfandel_port_characteristics",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 2013 Zinfandel Port?"
+        ],
+        "responses": [
+          "The 2013 Zinfandel Port is fortified with Brandy and boasts bold aromatics of ripe raspberry, leather, and spice on the nose, followed by vanilla and red plum that dances on the palate. The finish is strong yet balanced making this a perfect match for blue cheese, dark chocolate, or a Maduro cigar. Drink now or cellar for 7-10 years. This delicious wine has an alcohol content of 19.5%, so a little goes a long way. Pricing is $65 dollars for non-members."
+        ]
+      },
+      {
+        "tag": "reflection_tawny_characteristics",
+        "patterns": [
+          "What are the characteristics of Jessup Cellars' 13th Reflection Tawny dessert wine?"
+        ],
+        "responses": [
+          "Crafted in the traditional Solera method, the 13th Reflection Tawny dessert wine offers pronounced aromas of stewed cherry, dried fig, chocolate, and baking spice with a kiss of sandalwood and cedar. A decadent and juicy palate of mixed berry preserves will make a perfect digestif after a rich meal. Deliciously sweet yet fresh, this wine will pair with desserts like chocolate lava cake or a cheese course of ripe, aged, salty cheeses. Enjoy it now or cellar for 10-15 years. The Infinite Reflection 13th Recursion is 100% Napa Valley Cabernet Sauvignon aged for 12 years in French oak with an alcohol content of 19.5%. Non-members may purchase this wine for $85."
+        ]
+      },
+      {
+        "tag": "solera_method",
+        "patterns": [
+          "What is the Solera method?"
+        ],
+        "responses": [
+          "The Solera method is a traditional aging and blending process commonly used in the production of fortified wines, including dessert wines like Sherry and Madeira. The process works as follows: \n\n**Tiered Stacking**: The process begins with a series of barrels or casks arranged in a tiered system called a 'solera stack.' The bottom row contains the oldest wine, while subsequent rows contain progressively younger wines. \n\n**Fractional Blending**: Each year, a portion of wine is drawn from the bottom row of barrels for bottling. This creates space in those barrels, which are then topped up with wine from the row above. The process continues up the stack, with each barrel being partially emptied and then replenished with younger wine. \n\n**Aging and Maturity**: Because the barrels are only partially emptied each year, a portion of the older wine always remains in the barrels, contributing to the complexity and depth of flavor. Over time, the younger wines gradually blend with and inherit characteristics from the older wines. \n\n**Consistency**: The Solera method ensures consistency in the final product, as the blend of wines remains relatively constant over time. Even though some wine is removed for bottling each year, the overall character of the solera remains consistent due to the blending of older and younger wines. \n\n**Perpetual Process**: The Solera system is designed to be perpetual, with new wine continuously added at the top and matured wine drawn from the bottom for bottling. This allows producers to maintain a consistent product while also ensuring that some of the original wine remains in the solera stack, sometimes for many years or even decades. Overall, the Solera method is a meticulous and time-honored process that results in complex, well-balanced dessert wines with layers of flavor and aroma."
+        ]
+      },
+      {
+        "tag": "tasting_experiences_offered",
+        "patterns": [
+          "What tasting experiences does Jessup Cellars offer?"
+        ],
+        "responses": [
+          "Jessup Cellars offers several tasting experiences including the Light Flight, Jessup Classic Tasting, and virtual tastings. The Light Flight includes 3 wines for $30 per person, with the fee waived for purchases over $50. The Jessup Classic Tasting features a flight of 5 wines paired with cheeses, Marcona almonds, and a chocolate surprise for $60 per person, with the fee waived for purchases of two or more bottles. Additionally, Jessup Cellars provides virtual tastings and in-home or business tastings with a wine educator."
+        ]
+      },
+      {
+        "tag": "light_flight",
+        "patterns": [
+          "What is included in the Light Flight experience at Jessup Cellars?"
+        ],
+        "responses": [
+          "The Light Flight experience includes 3 wines, starting with either the 2022 Chardonnay and includes two of Jessup Cellars' most requested red wines. The cost is $30 per person, and each tasting fee is waived with a purchase of wine over $50. Walk-ins are welcome anytime for this experience."
+        ]
+      },
+      {
+        "tag": "classic_tasting",
+        "patterns": [
+          "What is included in the Jessup Classic Tasting?"
+        ],
+        "responses": [
+          "The Jessup Classic Tasting includes a flight of 5 wines perfectly paired with cheeses, Marcona almonds, and a chocolate surprise. The cost is $60 per person, and the tasting fee is waived with the purchase of two or more bottles of wine per person."
+        ]
+      },
+      {
+        "tag": "virtual_tasting",
+        "patterns": [
+          "What is included in Jessup Cellars' virtual tasting experience?"
+        ],
+        "responses": [
+          "Jessup Cellars offers a virtual tasting experience where a wine educator guides you through a fun and educational tasting of your selected wines via Zoom. This experience can be customized to your preferences and is suitable for groups. The virtual tasting fee is reimbursed with a purchase of one case of wine, and the wines you tasted are reimbursed with the purchase of a total of three cases, making the event complimentary for you."
+        ]
+      },
+      {
+        "tag": "in_home_tasting",
+        "patterns": [
+          "What is the cost for an in-home wine tasting with Jessup Cellars?"
+        ],
+        "responses": [
+          "Jessup Cellars offers personalized in-home or business wine tastings with a wine educator. The tasting is complimentary once everyone purchases 3 to 4 bottles of wine. You can learn more and schedule your tasting at https://jessupcellars.com/in-home-wine-tastings/"
+        ]
+      },
+      {
+        "tag": "petit_tasting",
+        "patterns": [
+          "What is the Petit Tasting experience at Jessup Cellars?"
+        ],
+        "responses": [
+          "The Petit Tasting is ideal for intimate groups of up to 12 guests. It includes a tasting of six wines from Jessup Cellars' portfolio, led by a wine educator. Members have a minimum purchase requirement and a $700 refundable booking fee, while non-members have a refundable $1600 event fee."
+        ]
+      },
+      {
+        "tag": "grand_tasting",
+        "patterns": [
+          "What is included in the Grand Tasting experience at Jessup Cellars?"
+        ],
+        "responses": [
+          "The Grand Tasting includes 12 bottles of wine, with the option to taste 6 or 4 different wines depending on your event style. Members have a minimum purchase requirement and a $350 refundable booking fee, while non-members have a refundable $2200 event fee."
+        ]
+      },
+      {
+        "tag": "soiree_tasting",
+        "patterns": [
+          "What is the Soirée Tasting experience at Jessup Cellars?"
+        ],
+        "responses": [
+          "The Soirée Tasting is ideal for large groups or celebrations, and includes 4 to 5 bottles each of four different wines selected based on your preferences. Members have a minimum purchase requirement and a $350 refundable booking fee, while non-members have a refundable $2800 event fee."
+        ]
+      },
+      {
+        "tag": "wine_club_memberships",
+        "patterns": [
+          "What are the benefits of joining the Jessup Cellars wine club?",
+          "What membership options does Jessup Cellars offer?"
+        ],
+        "responses": [
+          "As a member of the Jessup Cellars wine club, you'll enjoy a 15% discount on all current release orders, be the first to know about new releases, and receive invitations to 'Members Only' special events. Additionally, members get free tastings a couple of times per year with up to 4 guests in the Yountville Tasting Gallery and a $25 gift card if their guests become members."
+        ]
+      },
+      {
+        "tag": "tasting_club_membership",
+        "patterns": [
+          "What does the Tasting Club membership include?",
+          "How much does the Tasting Club membership cost?"
+        ],
+        "responses": [
+          "The Tasting Club membership delivers 3 bottles of wine curated by the Jessup Cellars team four times per year. You can choose to have the wines shipped to your home or business, or you can pick them up at the Yountville tasting room. The average cost for each shipment is approximately $200 plus shipping, which varies by region and method."
+        ]
+      },
+      {
+        "tag": "my_jessup_cellar_6",
+        "patterns": [
+          "What does the My Jessup Cellar 6 membership include?",
+          "How much does the My Jessup Cellar 6 membership cost?"
+        ],
+        "responses": [
+          "The My Jessup Cellar 6 membership delivers 6 bottles of wine twice per year, in April and September. Members have the benefit of choosing their wines in advance, and the cost is defined by their selections. The typical cost for this membership is about $400 twice per year plus shipping, which varies by region and method."
+        ]
+      },
+      {
+        "tag": "my_jessup_cellar_12",
+        "patterns": [
+          "What does the My Jessup Cellar 12 membership include?",
+          "How much does the My Jessup Cellar 12 membership cost?"
+        ],
+        "responses": [
+          "The My Jessup Cellar 12 membership includes 12 bottles of wine twice per year, in April and September. The average cost per shipment is $800. Members have the option to pick up their wines at the tasting room, and they also receive $20 flat rate shipping anywhere in the lower 48 states."
+        ]
+      },
+      {
+        "tag": "bardessono_hotel_amenities",
+        "patterns": [
+          "What are the amenities at Bardessono Hotel and Spa?"
+        ],
+        "responses": [
+          "**Bardessono Hotel and Spa** offers luxurious suites with modern amenities, an on-site spa, and a farm-to-table restaurant. It is LEED Platinum-certified, emphasizing sustainability and luxury."
+        ]
+      },
+      {
+        "tag": "hotel_yountville_features",
+        "patterns": [
+          "What does Hotel Yountville offer its guests?"
+        ],
+        "responses": [
+          "**Hotel Yountville** features elegant rooms, lush gardens, a spa, and a renowned restaurant. It is within walking distance of downtown Yountville, providing a convenient and charming location."
+        ]
+      },
+      {
+        "tag": "vintage_house_info",
+        "patterns": [
+          "Can you tell me about the Vintage House hotel?"
+        ],
+        "responses": [
+          "**Vintage House** is a luxury hotel with spacious guest rooms, beautifully landscaped grounds, a pool, and access to additional dining options and amenities at Estate Yountville. The hotel is known for its relaxed yet sophisticated atmosphere."
+        ]
+      },
+      {
+        "tag": "north_block_hotel_features",
+        "patterns": [
+          "What are the features of North Block Hotel?"
+        ],
+        "responses": [
+          "**North Block Hotel** offers stylish accommodations, a tranquil courtyard, a pool, and a popular Italian restaurant. It is directly across the street from Jessup Cellars and provides special deals on wine tasting."
+        ]
+      },
+      {
+        "tag": "estate_yountville_overview",
+        "patterns": [
+          "What can I expect at The Estate Yountville?"
+        ],
+        "responses": [
+          "**The Estate Yountville** includes several luxury hotels such as Vintage House and Hotel Villagio. The sprawling resort features upscale dining options, a spa, and event venues, creating a comprehensive luxury experience."
+        ]
+      },
+      {
+        "tag": "napa_valley_lodge_amenities",
+        "patterns": [
+          "What amenities does Napa Valley Lodge provide?"
+        ],
+        "responses": [
+          "**Napa Valley Lodge** offers spacious and well-appointed guest rooms with views of vineyards or landscaped gardens. Amenities include a heated outdoor pool and hot tub, a fitness center, complimentary bicycle rentals, a daily breakfast buffet, and concierge services. It also has meeting and event space for corporate gatherings and special occasions."
+        ]
+      },
+      {
+        "tag": "the_french_laundry_info",
+        "patterns": [
+          "What can you tell me about The French Laundry?"
+        ],
+        "responses": [
+          "**The French Laundry** is one of Thomas Keller's most famous restaurants, known for its exquisite tasting menus, impeccable service, and award-winning wine list. It is housed in a historic stone building and offers a refined dining experience."
+        ]
+      },
+      {
+        "tag": "bouchon_bistro_details",
+        "patterns": [
+          "What does Bouchon Bistro offer?"
+        ],
+        "responses": [
+          "**Bouchon Bistro** is a casual French brasserie located across the street from The French Laundry. It serves classic bistro fare, including steak frites, roast chicken, and seafood, as well as house-made pastries and desserts."
+        ]
+      },
+      {
+        "tag": "bouchon_bakery_info",
+        "patterns": [
+          "What can I find at Bouchon Bakery?"
+        ],
+        "responses": [
+          "**Bouchon Bakery** offers artisanal breads, pastries, sandwiches, and desserts, along with coffee and espresso drinks. It is a popular spot for breakfast, lunch, and afternoon snacks."
+        ]
+      },
+      {
+        "tag": "ad_hoc_dining_experience",
+        "patterns": [
+          "What is special about Ad Hoc?"
+        ],
+        "responses": [
+          "**Ad Hoc** provides a more casual dining experience with a focus on family-style meals. It is famous for its fried chicken on Monday evenings, served as part of a fixed-price, family-style dinner menu."
+        ]
+      },
+      {
+        "tag": "ro_restaurant_and_lounge",
+        "patterns": [
+          "What can I expect at RO Restaurant and Lounge?"
+        ],
+        "responses": [
+          "**RO Restaurant and Lounge** is a dining spot created by Thomas Keller and chef Jeffery Hayashi. It offers a menu focused on Asian-inspired cuisine, with a selection of Champagne and sparkling wines."
+        ]
+      },
+      {
+        "tag": "la_calenda_details",
+        "patterns": [
+          "What makes La Calenda special?"
+        ],
+        "responses": [
+          "**La Calenda** is a Mexican restaurant inspired by the culinary traditions of Oaxaca, Mexico. It offers modern takes on classic Mexican dishes while honoring authentic flavors and techniques."
+        ]
+      },
+      {
+        "tag": "bistro_jeanty_features",
+        "patterns": [
+          "What is Bistro Jeanty known for?"
+        ],
+        "responses": [
+          "**Bistro Jeanty** is known for its authentic French cuisine and charming ambiance. The menu features traditional French dishes like coq au vin, cassoulet, and escargot, and is particularly noted for its tomato bisque in puff pastry."
+        ]
+      },
+      {
+        "tag": "lucy_restaurant_and_bar",
+        "patterns": [
+          "What does Lucy Restaurant & Bar offer?"
+        ],
+        "responses": [
+          "**Lucy Restaurant & Bar** serves farm-to-table California cuisine with a focus on fresh, locally sourced ingredients. It is renowned for its seasonal dishes and exceptional weekend brunch menu."
+        ]
+      },
+      {
+        "tag": "ciccio_info",
+        "patterns": [
+          "What can I expect at Ciccio?"
+        ],
+        "responses": [
+          "**Ciccio** offers contemporary Italian cuisine with a focus on fresh, seasonal ingredients. The menu includes classic Italian dishes, as well as innovative takes on favorites like pasta, pizza, and seafood."
+        ]
+      },
+      {
+        "tag": "rd_kitchen_experience",
+        "patterns": [
+          "What is special about R&D Kitchen?"
+        ],
+        "responses": [
+          "**R&D Kitchen** features sophisticated and fresh cuisine in a modern setting with outdoor seating and stunning vineyard views. The menu includes a variety of options from sushi to steak, and they are known for their margaritas and takeout pizza."
+        ]
+      },
+      {
+        "tag": "bottega_style",
+        "patterns": [
+          "What style does Bottega offer?"
+        ],
+        "responses": [
+          "**Bottega** offers an unmistakably Italian sense of style in a stunning Napa Valley setting. The restaurant features an expansive patio, rustic interior with Venetian plaster, Murano glass chandeliers, and a warm, inviting atmosphere."
+        ]
+      },
+      {
+        "tag": "ottimo_info",
+        "patterns": [
+          "What does Ottimo offer?"
+        ],
+        "responses": [
+          "**Ottimo** offers a range of Italian dishes, including pizzas, fresh mozzarella, coffee, wine, beer, and handcrafted products, reflecting Michael Chiarello's extensive experience in Italian cuisine."
+        ]
+      },
+      {
+        "tag": "coqueta_napa_valley",
+        "patterns": [
+          "What is Coqueta Napa Valley known for?"
+        ],
+        "responses": [
+          "**Coqueta Napa Valley** explores Spanish cuisine with a focus on local Northern California ingredients. The restaurant offers inspired cocktails and dishes that highlight the rich flavors of Spanish cooking."
+        ]
+      },
+      {
+        "tag": "rh_restaurant_yountville",
+        "patterns": [
+          "What can you tell me about RH Restaurant at RH Yountville?"
+        ],
+        "responses": [
+          "**RH Restaurant at RH Yountville** integrates food, wine, art, and design. It features timeless classics for brunch and dinner, along with a selection of wines from esteemed vintners and a wine vault."
+        ]
+      },
+      {
+        "tag": "kollar_chocolates_info",
+        "patterns": [
+          "What is Kollar Chocolates known for?"
+        ],
+        "responses": [
+          "**Kollar Chocolates** is an award-winning artisan chocolate shop known for elevating chocolate into a sensory experience. It features new world flavors, modern artistry, and ethically sourced ingredients."
+        ]
+      },
+      {
+        "tag": "madeleines_macarons",
+        "patterns": [
+          "What can I find at Madeleine's Macarons?"
+        ],
+        "responses": [
+          "**Madeleine's Macarons** offers handmade French macarons, breakfast and lunch crepes, excellent coffee, and house-made ice cream with local fresh ingredients."
+        ]
+      },
+      {
+        "tag": "model_bakery_history",
+        "patterns": [
+          "Tell me about The Model Bakery."
+        ],
+        "responses": [
+          "**The Model Bakery** has been part of the Napa Valley culinary scene for nearly 90 years, providing excellent breads, pastries, and coffee. The Yountville location is in the Caboose at the Railroad Inn Yountville."
+        ]
+      },
+      {
+        "tag": "ranch_market_too",
+        "patterns": [
+          "What happened to Ranch Market Too?"
+        ],
+        "responses": [
+          "**Ranch Market Too** was opened in 1977 and later became Velo Pizza and Deli, which offers pizza by the slice and deli sandwiches. It has evolved over the years but continues to be a local favorite."
+        ]
+      }
+      
+      
+      
+      
+      
+    ]
+  }
+
+  
