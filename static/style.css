@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kollekif', Times, serif;
+  font-weight: 100;
+  font-size: 90%;
+  background-color: #000000;
+  background-image: url('static/images/wine.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(114, 1, 1, 0.7);
+  z-index: -1;
+}
+
+
+
+*, html {
+  --primaryGradient: linear-gradient(93.12deg, #8B0000 0.52%, #A52A2A 100%);
+  --secondaryGradient: linear-gradient(268.91deg, #A52A2A -2.14%, #8B0000 99.69%);
+  --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+  --primary: #8B0000;
+}
+
+.header {
+  background-color: #8B0000;
+  color: white;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.header h1 {
+  margin-left: 40px;
+  font-size: 2.2em;
+  position: relative;
+}
+
+.header h1:hover span {
+  animation: fall 0.6s forwards;
+}
+
+.header h1 span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(20%) rotate(5deg);
+  }
+  100% {
+    transform: translateY(40%) rotate(10deg);
+  }
+}
+
+.header h1 span:nth-child(even) {
+  animation-duration: 0.7s;
+  animation-delay: 0.05s;
+}
+
+.header h1 span:nth-child(3n) {
+  animation-duration: 0.8s;
+  animation-delay: 0.3s;
+}
+
+.header h1:hover {
+  transform: rotate(2deg) skew(-2deg);
+}
+
+.section {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  background-color: #b03030;
+}
+
+.section h2 {
+  margin-right: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.section h2:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.chatbox__support {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  width: 350px;
+  height: 470px;
+  z-index: -123456;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.chatbox--active {
+  transform: translateY(-40px);
+  z-index: 123456;
+  opacity: 1;
+}
+
+.chatbox__button {
+  text-align: right;
+}
+
+.chatbox__header {
+  position: sticky;
+  top: 0;
+  background: var(--primaryGradient);
+  color: white;
+  padding: 15px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: var(--primaryBoxShadow);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatbox__image--header {
+  margin-right: 10px;
+}
+
+.chatbox__heading--header {
+  font-size: 1.2rem;
+}
+
+.chatbox__description--header {
+  font-size: .9rem;
+}
+
+.chatbox__messages {
+  margin-top: auto;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column-reverse;
+  padding: 0 18px;
+  height: 400px;
+}
+
+.messages__item {
+  background: #E0E0E0;
+  max-width: 60.6%;
+  width: fit-content;
+  padding: 8px 12px;
+  margin-top: 1px;
+  font-size: 0.95rem;
+}
+
+.messages__item--operator {
+  margin-left: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: var(--primary);
+  color: white;
+}
+
+.messages__item--visitor {
+  margin-right: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.chatbox__footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background: var(--secondaryGradient);
+  box-shadow: var(--secondaryBoxShadow);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 20px;
+}
+
+.chatbox__footer input {
+  width: 80%;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-align: left;
+}
+
+.chatbox__send--footer {
+  color: white;
+  background: #bb3030;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chatbox__send--footer:hover {
+  background: #8B0000;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.chatbox__button img {
+  width: 30px;
+}
