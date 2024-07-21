@@ -8,7 +8,6 @@ from model import NeuralNet
 import os
 from docx import Document
 import random
-import re
 from nltk.tokenize import sent_tokenize, word_tokenize
 import logging
 
