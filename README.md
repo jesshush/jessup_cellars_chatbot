@@ -10,11 +10,12 @@ Taking this into concern, the business owners want to deploy a chatbot on their 
 4. Minimum Latency - A maximum latency of 2-3 seconds.
 5. Context Memory - Chatbot maintains the conversation history.
 
-
+<br /> 
 
 > **Step 1** - Clone the code from the repository (using `GIT`) 
 
 ```bash
 $ git clone https://github.com/jesshush/jessup_cellars_chatbot.git
-$ cd flask-black-dashboard
+$ cd jessup_cellars_chatbot
 ```
+<br /> 
