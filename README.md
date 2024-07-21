@@ -12,10 +12,35 @@ Taking this into concern, the business owners want to deploy a chatbot on their 
 
 <br /> 
 
+> **Optional** - Set up a virtual environment (using `GIT`) 
+
+```bash
+$ python -m venv venv
+$ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+<br /> <br /> 
+
 > **Step 1** - Clone the code from the repository (using `GIT`) 
 
 ```bash
 $ git clone https://github.com/jesshush/jessup_cellars_chatbot.git
 $ cd jessup_cellars_chatbot
+```
+<br /> 
+
+> **Step 2** - Install the libs through terminal
+
+```bash
+$ pip install -r requirements.txt
+
+<br /> 
+
+> **Step 3** - Run the app (using `GIT`) 
+
+
+```bash
+$ python train.py   # enter quit to end chat
+$ python chat.py
+$ python app.py
 ```
 <br /> 
