@@ -17,8 +17,7 @@ Taking this into concern, the business owners want to deploy a chatbot on their 
 ```bash
 $ python -m venv venv
 $ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-<br /> <br /> 
+```
 
 > **Step 1** - Clone the code from the repository (using `GIT`) 
 
@@ -32,10 +31,10 @@ $ cd jessup_cellars_chatbot
 
 ```bash
 $ pip install -r requirements.txt
-
+```
 <br /> 
 
-> **Step 3** - Run the app (using `GIT`) 
+> **Step 3** - Run the app 
 
 
 ```bash
