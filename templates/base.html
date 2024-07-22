@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Wine Chatbot</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
 </head>
 <body>
 <div class="background-mosaic"></div>
@@ -30,7 +29,7 @@
                     </div>
                     <div class="chatbox__content--header">
                         <h4 class="chatbox__heading--header">Wine Chatbot</h4>
-                        <p class="chatbox__description--header">Hi. My name is jess. How can I help you with our wines today?</p>
+                        <p class="chatbox__description--header">Hi. My name is Jess. How can I help you with our wines today?</p>
                     </div>
                 </div>
                 <div class="chatbox__messages">
@@ -48,7 +47,7 @@
     </div>
 </div>
 <script>
-var $SCRIPT_ROOT = { request_script_root_tojson_safe };
+var $SCRIPT_ROOT = "{{ request.script_root }}";
 </script>
 <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
 </body>
