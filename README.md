@@ -43,3 +43,5 @@ $ python chat.py
 $ python app.py
 ```
 <br /> 
+
+ > **Step 4** - Follow the local address link and click on the chat icon 
