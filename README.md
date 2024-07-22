@@ -49,4 +49,4 @@ $ python app.py
 
 PDF - [Open DOCX](https://docs.google.com/document/d/1wSuQIET0yOqcntjAnYaocc9rHXbUbQzus8p1Wog0_J0/edit?usp=sharing)
 
-Demo Video - [![Watch the video](https://youtu.be/OUeXnvitgkU)
+Demo Video - [Watch the video](https://www.youtube.com/watch?v=OUeXnvitgkU)
